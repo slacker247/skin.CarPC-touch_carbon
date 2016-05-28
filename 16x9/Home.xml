@@ -260,8 +260,8 @@
         
         <control type="group" id="4290">
             <include>Window_OpenClose_Animation_Slide_Up</include>
-            <posx>498</posx>
-            <posy>95r</posy>
+            <posx>599</posx>
+            <posy>85r</posy>
             <control type="button" id="4291">
                 <onup>Control.SetFocus(4281)</onup>
                 <ondown>Control.SetFocus(4301)</ondown>
