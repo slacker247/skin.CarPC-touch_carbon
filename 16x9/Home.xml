@@ -236,7 +236,7 @@
             <control type="button" id="4281">
                 <ondown>Control.SetFocus(4291)</ondown>
                 <onup>Control.SetFocus(4271)</onup>
-                <onleft>Control.SetFocus(4291)</onleft>
+                <onleft>Control.SetFocus(4201)</onleft>
                 <onright></onright>
                 <description>Settings Button</description>
                 <posx>0</posx>
@@ -258,32 +258,31 @@
             </control>
         </control>
         
-        <control type="group" id="4290">
+        <control type="group" id="4260">
             <include>Window_OpenClose_Animation_Slide_Up</include>
-            <posx>190r</posx>
-            <posy>85r</posy>
+            <posx>498</posx>
+            <posy>95r</posy>
             <control type="button" id="4291">
-                <ondown>Control.SetFocus(4296)</ondown>
                 <onup>Control.SetFocus(4281)</onup>
+                <ondown>Control.SetFocus(4301)</ondown>
                 <onleft>Control.SetFocus(4301)</onleft>
-                <onright>Control.SetFocus(4281)</onright>
-                <description>Settings Button</description>
+                <onright>Control.SetFocus(4281)</onright
+                <description>Programs Button</description>
                 <posx>0</posx>
                 <posy>0</posy>
                 <width>82</width>
                 <height>82</height>
                 <texturenofocus  border="4">floor_button_t.png</texturenofocus>
                 <texturefocus border="4">floor_buttonfo.png</texturefocus>
-                <onclick>ActivateWindow(Favourites)</onclick>
-            </control>   
+                <onclick>ActivateWindow(Programs)</onclick>
+            </control>
             <control type="image">
-                <description>Favourites Button Image</description>
+                <description>Programs Button Image</description>
                 <posx>0</posx>
                 <posy>0</posy>
                 <width>82</width>
                 <height>82</height>
-                <texture>icon_favourites_w.png</texture>
-                <bordersize>12</bordersize>
+                <texture>programs2.png</texture>
             </control>
         </control>
         
@@ -295,7 +294,7 @@
                 <ondown>Control.SetFocus(4296)</ondown>
                 <onup>Control.SetFocus(4281)</onup>
                 <onleft>Control.SetFocus(4296)</onleft>
-                <onright>Control.SetFocus(4291)</onright>
+                <onright>Control.SetFocus(4281)</onright>
                 <description>Shutdown Button</description>
                 <posx>0</posx>
                 <posy>0</posy>
@@ -303,7 +302,7 @@
                 <height>82</height>
                 <texturenofocus  border="4">floor_button_t.png</texturenofocus>
                 <texturefocus border="4">floor_buttonfo.png</texturefocus>
-                <onclick>ActivateWindow(Power)</onclick>
+                <onclick>Quit</onclick>
             </control>
             <control type="image">
                 <description>Shutdown Button Image</description>
@@ -315,7 +314,6 @@
             </control>
         </control>
 
-        <include>FileManager</include>
         <include>Connect3g</include>
         <include>BehindDialogFadeOut</include>
 
