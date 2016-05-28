@@ -30,32 +30,32 @@
                 <ondown>Control.SetFocus(4211)</ondown>
                 <onup>Control.SetFocus(600)</onup>
                 <onleft>Control.SetFocus()</onleft>
-        <onright>Control.SetFocus(4251)</onright>
-                <description>Video Button</description>
+                <onright>Control.SetFocus(4251)</onright>
+                <description>Music Button</description>
                 <posx>0</posx>
                 <posy>0</posy>
                 <width>540</width>
                 <height>130</height>
                 <texturenofocus>home_1.png</texturenofocus>
                 <texturefocus border="5">home_1_p.png</texturefocus>
-                <onclick>ActivateWindow(Videos)</onclick>
+                <onclick>ActivateWindow(Music)</onclick>
             </control>
             
             <control type="image">
-                <description>Video Button Image</description>
+                <description>Music Button Image</description>
                 <posx>30</posx>
                 <posy>30</posy>
                 <width>80</width>
                 <height>80</height>
-                <texture>video2.png</texture>
+                <texture>music2.png</texture>
             </control>
             <control type="label">
-                <description>Video label</description>
+                <description>Music label</description>
                 <posx>172</posx>
                 <posy>22</posy>
                 <height>90</height>
                 <width>200</width>
-                <label>Videos</label>
+                <label>Music</label>
                 <aligny>center</aligny>
                 <font>font40_title</font>
                 <textcolor>FFFFFFFF</textcolor>
@@ -102,7 +102,7 @@
                 <onup>Control.SetFocus(4241)</onup>
                 <ondown>Control.SetFocus(4261)</ondown>
                 <onleft>Control.SetFocus(4201)</onleft>
-                <description>Music Button</description>
+                <description>Video Button</description>
                 <posx>0</posx>
                 <posy>0</posy>
                 <width>540</width>
@@ -110,23 +110,23 @@
                 <font>-</font>
                 <texturenofocus >home_4.png</texturenofocus>
                 <texturefocus border="5">home_4_p.png</texturefocus>
-                <onclick>ActivateWindow(Music)</onclick>
+                <onclick>ActivateWindow(Videos)</onclick>
             </control>
             <control type="image">
-                <description>Music Button Image</description>
+                <description>Video Button Image</description>
                 <posx>140r</posx>
                 <posy>30</posy>
                 <width>80</width>
                 <height>80</height>
-                <texture>music2.png</texture>
+                <texture>video2.png</texture>
             </control>
             <control type="label">
-                <description>Music label</description>
+                <description>Video label</description>
                 <posx>170</posx>
                 <posy>22</posy>
                 <height>90</height>
                 <width>250</width>
-                <label>Music</label>
+                <label>Videos</label>
                 <align>center</align>
                 <aligny>center</aligny>
                 <font>font40_title</font>
