@@ -258,7 +258,7 @@
             </control>
         </control>
         
-        <control type="group" id="4260">
+        <control type="group" id="4290">
             <include>Window_OpenClose_Animation_Slide_Up</include>
             <posx>498</posx>
             <posy>95r</posy>
