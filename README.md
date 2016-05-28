@@ -1,11 +1,33 @@
-If you want to suport my work, to continue this, you can make a donation.
-
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AMXESTYHM96HN)
-
 
 skin.CarPC-touch_carbon
 =======================
+Configuring this skin.
 
+Usage
+=======================
+ - Install rasbian
+ - apt-get update/upgrade etc
+ - apt-get install kodi
+ - run kodi as pi once to create .kodi in the home folder
+ - cd /pi/.kodi/addons
+ - git clone https://github.com/slacker247/skin.CarPC-touch_carbon.git
+ - install custom boot splash screen []
+ - configure kodi to load on boot
+ - install touch usb drivers
+
+Changes
+=======================
+ - Change Navigation to Google Maps
+ - Added bluetooth from osmc to settings
+ - Re-arranged the main menu buttons, changed them to configurable through Favorites
+ - Moved the power button to the lower bar, added power options
+ - Moved the apps/programs button to the lower bar
+ - Changed the middle logo to a generic one and added a bunch of car manufactures to select from
+ - Changed the FM Radio UI
+ - Add touch calibration or reconfigure it
+
+Last Branch
+=======================
 skin_xbmc
 Update 2.09.2015
 - Fixed file manager and add button in home.
@@ -16,29 +38,6 @@ Update 2.09.2015
 - The buttons send commands :
 - sudo /usr/bin/modem3g/sakis3g connect
 - sudo /usr/bin/modem3g/sakis3g disconnect
-
-- For install sakis3g 
-- wget "http://raspberry-at-home.com/files/sakis3g.tar.gz"
-- I suggest you copy the file to /usr/bin/modem3g directory and unpack it:
-
-- sudo mkdir /usr/bin/modem3g
-- sudo chmod 777 /usr/bin/modem3g
-- sudo cp sakis3g.tar.gz /usr/bin/modem3g
-- cd /usr/bin/modem3g
-- sudo tar -zxvf sakis3g.tar.gz
-- sudo chmod +x sakis3g
-
-- Config: (This is my config ,i use Huawei E3131)
-- sudo nano /etc/sakis3g.conf
-- Add:
-- APN="internet"
-MODEM="OTHER"
-OTHER="USBMODEM"
-USBINTERFACE="0"
-USBDRIVER="option"
-USBMODEM="12d1:1506"
-APN_USER="foo"
-APN_PASS="foo"
 
 - More info: http://raspberry-at-home.com/installing-3g-modem/
 
