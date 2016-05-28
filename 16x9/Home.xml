@@ -266,7 +266,7 @@
                 <onup>Control.SetFocus(4281)</onup>
                 <ondown>Control.SetFocus(4301)</ondown>
                 <onleft>Control.SetFocus(4301)</onleft>
-                <onright>Control.SetFocus(4281)</onright
+                <onright>Control.SetFocus(4281)</onright>
                 <description>Programs Button</description>
                 <posx>0</posx>
                 <posy>0</posy>
