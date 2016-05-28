@@ -205,10 +205,10 @@
                 <onright>Control.SetFocus(4261)</onright>
                 <posx>0</posx>
                 <posy>0</posy>
-                <width>408</width>
+                <width>540</width>
                 <height>130</height>
-                <texturenofocus >home_2.png</texturenofocus>
-                <texturefocus border="5">home_2_p.png</texturefocus>
+                <texturenofocus >home_3.png</texturenofocus>
+                <texturefocus border="5">home_3_p.png</texturefocus>
                 <onclick>RunScript("plugin.program.navigation")</onclick>
             </control>
             <control type="image">
@@ -292,7 +292,7 @@
             <visible>!Window.IsVisible(ExtendedProgressDialog) + !Skin.HasSetting(HideHomeButtonRadio) + !Control.IsVisible(4240)</visible>
             <include>Window_OpenClose_Animation_Zoom</include>
             <posx>20</posx>
-            <posy>430</posy>
+            <posy>280</posy>
             <control type="button" id="4231">
                 <onup>Control.SetFocus(4221)</onup>
                 <ondown>Control.SetFocus(4251)</ondown>
@@ -300,10 +300,10 @@
                 <description>Radio</description>
                 <posx>0</posx>
                 <posy>0</posy>
-                <width>540</width>
+                <width>408</width>
                 <height>130</height>
-                <texturenofocus >home_3.png</texturenofocus>
-                <texturefocus border="5">home_3_p.png</texturefocus>
+                <texturenofocus >home_2.png</texturenofocus>
+                <texturefocus border="5">home_2_p.png</texturefocus>
                 <onclick>RunScript("plugin.program.radioFM")</onclick>
             </control>
             <control type="image">
