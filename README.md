@@ -11,6 +11,8 @@ Usage
  - run kodi as pi once to create .kodi in the home folder
  - cd /pi/.kodi/addons
  - git clone https://github.com/slacker247/skin.CarPC-touch_carbon.git
+ - run kodi and go to settings -> apperance -> skin
+ -- change it to CarPC-touch_carbon
  - install custom boot splash screen []
  - configure kodi to load on boot
  - install touch usb drivers

@@ -30,7 +30,7 @@
                 <ondown>Control.SetFocus(4211)</ondown>
                 <onup>Control.SetFocus(600)</onup>
                 <onleft>Control.SetFocus()</onleft>
-				<onright>Control.SetFocus(4251)</onright>
+        <onright>Control.SetFocus(4251)</onright>
                 <description>Video Button</description>
                 <posx>0</posx>
                 <posy>0</posy>
@@ -184,7 +184,7 @@
                 <onup>Control.SetFocus(4261)</onup>
                 <ondown>Control.SetFocus(4281)</ondown>
                 <onleft>Control.SetFocus(4241)</onleft>
-				<onright></onright>
+                <onright></onright>
                 <description>Shutdown Button</description>
                 <posx>0</posx>
                 <posy>0</posy>
@@ -213,7 +213,7 @@
                 <align>center</align>
                 <aligny>center</aligny>
                 <font>font40_title</font>
-                <textcolor>FFFFFFFF</textcolor>			
+                <textcolor>FFFFFFFF</textcolor>         
             </control>
         </control>
         
@@ -228,16 +228,16 @@
         
         <include>HomeRecentlyAddedInfo</include>
         <include>BottomNowPLaying</include>
-        
-       <control type="group" id="4280">
-           <include>Window_OpenClose_Animation_Slide_Up</include>
+
+        <control type="group" id="4280">
+            <include>Window_OpenClose_Animation_Slide_Up</include>
             <posx>95r</posx>
             <posy>85r</posy>
             <control type="button" id="4281">
                 <ondown>Control.SetFocus(4291)</ondown>
                 <onup>Control.SetFocus(4271)</onup>
                 <onleft>Control.SetFocus(4291)</onleft>
-				<onright></onright>
+                <onright></onright>
                 <description>Settings Button</description>
                 <posx>0</posx>
                 <posy>0</posy>
@@ -265,8 +265,8 @@
             <control type="button" id="4291">
                 <ondown>Control.SetFocus(4296)</ondown>
                 <onup>Control.SetFocus(4281)</onup>
-                <onleft>Control.SetFocus(4296)</onleft>
-				<onright>Control.SetFocus(4281)</onright>
+                <onleft>Control.SetFocus(4301)</onleft>
+                <onright>Control.SetFocus(4281)</onright>
                 <description>Settings Button</description>
                 <posx>0</posx>
                 <posy>0</posy>
@@ -286,8 +286,38 @@
                 <bordersize>12</bordersize>
             </control>
         </control>
+        
+        <control type="group" id="4301">
+            <include>Window_OpenClose_Animation_Slide_Up</include>           
+            <posx>95</posx>
+            <posy>85</posy>
+            <control type="button" id="4301">
+                <ondown>Control.SetFocus(4296)</ondown>
+                <onup>Control.SetFocus(4281)</onup>
+                <onleft>Control.SetFocus(4296)</onleft>
+                <onright>Control.SetFocus(4291)</onright>
+                <description>Shutdown Button</description>
+                <posx>0</posx>
+                <posy>0</posy>
+                <width>82</width>
+                <height>82</height>
+                <texturenofocus  border="4">floor_button_t.png</texturenofocus>
+                <texturefocus border="4">floor_buttonfo.png</texturefocus>
+                <onclick>ActivateWindow(Power)</onclick>
+            </control>
+            <control type="image">
+                <description>Shutdown Button Image</description>
+                <posx>0</posx>
+                <posy>0</posy>
+                <width>82</width>
+                <height>82</height>
+                <texture>shut-down2.png</texture>
+            </control>
+        </control>
+
         <include>FileManager</include>
         <include>Connect3g</include>
         <include>BehindDialogFadeOut</include>
-    </controls>	
+
+    </controls> 
 </window>
