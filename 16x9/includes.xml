@@ -197,7 +197,7 @@
             <visible>!Window.IsVisible(ExtendedProgressDialog) + !Skin.HasSetting(HideHomeButtonNavigation) + !Control.IsVisible(4220)</visible>
             <include>Window_OpenClose_Animation_Zoom</include>
             <posx>20</posx>
-            <posy>280</posy>
+            <posy>430</posy>
             <control type="button" id="4211">
                 <description>Navit Button</description>
                 <onup>Control.SetFocus(4201)</onup>
