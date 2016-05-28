@@ -292,9 +292,9 @@
             <posy>85r</posy>
             <control type="button" id="4301">
                 <ondown>Control.SetFocus(4296)</ondown>
-                <onup>Control.SetFocus(4281)</onup>
+                <onup>Control.SetFocus(4291)</onup>
                 <onleft>Control.SetFocus(4296)</onleft>
-                <onright>Control.SetFocus(4281)</onright>
+                <onright>Control.SetFocus(4291)</onright>
                 <description>Shutdown Button</description>
                 <posx>0</posx>
                 <posy>0</posy>
