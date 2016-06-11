@@ -351,7 +351,7 @@
             <control type="image">
                 <description>Favourites</description>
                 <posx>30</posx>
-                <posy>25</posy>
+                <posy>30</posy>
                 <width>80</width>
                 <height>80</height>
                 <texture>icon_favourites_w.png</texture>
@@ -451,7 +451,7 @@
             <width>1280</width>
             <height>720</height>
             <aspectratio>scale</aspectratio>
-            <texture fallback="special://skin/background/SKINDEFAULT.jpg">special://skin/background/$INFO[Skin.CurrentTheme].jpg</texture>
+            <texture fallback="special://skin/backgrounds/SKINDEFAULT.jpg">special://skin/background/$INFO[Skin.CurrentTheme].jpg</texture>
             <visible>![Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))]</visible>
             <include>VisibleFadeEffect</include>
         </control>
