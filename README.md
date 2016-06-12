@@ -3,6 +3,10 @@ skin.CarPC-touch_carbon
 =======================
 Configuring this skin.
 
+This is no longer...
+I'm converting it to HTML
+Then using RasPi in Chrome Kiosk Mode - https://www.danpurdy.co.uk/web-development/raspberry-pi-kiosk-screen-tutorial/
+
 Usage
 =======================
  - Install rasbian
